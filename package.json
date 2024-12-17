@@ -1,0 +1,53 @@
+{
+  "name": "FitnessTrack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/storage": "^1.21.0",
+    "@react-native-community/netinfo": "^11.31.1",
+    "@react-native-firebase/app": "^21.1.1",
+    "@react-navigation/native": "^7.0.3",
+    "@react-navigation/native-stack": "^7.1.14",
+    "axios": "^1.1.9",
+    "moment": "^2.30.1",
+    "nativewind": "^2.0.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.3",
+    "react-native-element-dropdown": "^2.21.2",
+    "react-native-gesture-handler": "^2.1.2",
+    "react-native-iconify": "^2.0.1",
+    "react-native-linear-gradient": "^2.2.3",
+    "react-native-onboarding-swiper": "^2.3.0",
+    "react-native-pager-view": "^6.6.1",
+    "react-native-paper": "^5.11.5",
+    "react-native-reanimated": "^3.12.3",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^4.2.0",
+    "react-native-svg": "^15.1.0",
+    "transformer": "^1.1.0",
+    "react-native-icons": "^10.2.0",
+    "tailwindcss": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.3",
+    "@babel/runtime": "^7.2.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/typescript-config": "0.76.3",
+    "@types/react": "^18.2.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "react-test-renderer": "18.3.1",
+    "typescript": "4.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

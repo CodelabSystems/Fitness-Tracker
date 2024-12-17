@@ -1,0 +1,17 @@
+buildscript {
+    ext {
+        buildToolsVersion = "31.0.1"
+        minSdkVersion = 29
+        compileSdkVersion = 31
+        ndkVersion = "22.1.10909125"
+        kotlinVersion = "1.2.24"
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("org.jetbrains.kotlin:kotlin-gradle")
+        classpath 'com.google.gms:google-services:2.4.0'
+
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
